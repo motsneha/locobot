@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Help" 
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+  		 android:orientation="vertical">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:text="Hello and Welcome to LocoBot….A cool,trendy App that helps you get Location based services."
+       android:textColor="#FF909090"
+       tools:ignore="HardcodedText" />
+
+
+   	<TextView
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:layout_marginLeft="10dp"
+   	    android:layout_marginRight="10dp"
+   	    android:textAppearance="?android:attr/textAppearanceMedium"
+   	    android:layout_marginTop="10dp"
+   	    android:text="Places"
+   	    android:textColor="#3BB9FF"
+   	    tools:ignore="HardcodedText" />
+
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="10dp"
+	    android:text="Find the nearby places like ATM,Cafeteria,University and various other places within perimeter of 1 km. "
+	    android:textColor="#FF909090"
+	    tools:ignore="HardcodedText" />
+
+
+   	<TextView
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:textAppearance="?android:attr/textAppearanceMedium"
+   	    android:layout_marginLeft="10dp"
+   	    android:layout_marginRight="10dp"
+   	    android:layout_marginTop="10dp"
+   	    android:text="City buses"
+   	    android:textColor="#3BB9FF"
+   	    tools:ignore="HardcodedText" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:text="Find the timing of the Local transport as well as different buses available where you need to select the up or down option and the source stop."
+    android:textColor="#FF909090"
+    tools:ignore="HardcodedText" />
+ 
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="10dp"
+     android:layout_marginRight="10dp"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:layout_marginTop="10dp"
+     android:text="St Buses"
+     android:textColor="#3BB9FF"
+     tools:ignore="HardcodedText" />
+
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="10dp"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:layout_marginRight="10dp"
+     android:layout_marginTop="10dp"
+     android:text="Input source and destination city and the result gives you the possible timings of the ST buses."
+     android:textColor="#FF909090"
+     tools:ignore="HardcodedText" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_marginTop="10dp"
+    android:text="Set Sms"
+    android:textColor="#3BB9FF"
+    tools:ignore="HardcodedText" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_marginTop="10dp"
+    android:text="Give the Number, Message Content, and the Location where once you reach the message should be sent to the given number. "
+    android:textColor="#FF909090"
+    tools:ignore="HardcodedText" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:text="Reminder"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="#3BB9FF"
+    tools:ignore="HardcodedText" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="A location based reminder.Once set the required fields it will remind you by notifying you with an vibrate alert."
+    android:textColor="#FF909090"
+    tools:ignore="HardcodedText" />
+
+<TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:layout_marginTop="10dp"
+       android:text="Maps and other web services are powered by Google."
+       android:textColor="#FF909090"
+       tools:ignore="HardcodedText" />
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

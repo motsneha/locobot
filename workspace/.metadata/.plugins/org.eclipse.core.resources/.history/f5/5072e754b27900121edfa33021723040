@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".LocoBotAppActivity" 
+    android:background="@drawable/background">
+    <SlidingDrawer
+     android:id="@+id/SlidingDrawer"
+     android:layout_width="wrap_content"
+     android:layout_height="250dip"
+     android:content="@+id/contentLayout"
+     android:handle="@+id/slideButton"
+     android:orientation="vertical"
+     android:padding="10dip"
+     tools:ignore="UselessParent" >
+           
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/slideButton">
+         </Button>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/contentLayout"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="10dip"
+               android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Search Places"
+                tools:ignore="HardcodedText" >
+
+            </Button>
+
+            <Button
+                android:id="@+id/Button02"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Search City Buses"
+                tools:ignore="HardcodedText" >
+                
+            </Button>
+
+            <Button
+                android:id="@+id/Button03"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Search S.T Buses"
+                tools:ignore="HardcodedText" >
+
+            </Button>
+
+            <Button
+                android:id="@+id/Button04"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Show me on map"
+                tools:ignore="HardcodedText" >
+
+            </Button>
+            <Button
+                android:id="@+id/Button05"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Reminder"
+                tools:ignore="HardcodedText" >
+            </Button>
+			<Button
+                android:id="@+id/Button06"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:text="Exit"
+                tools:ignore="HardcodedText" >
+
+            </Button>            
+        </LinearLayout>
+    </SlidingDrawer>
+</LinearLayout>

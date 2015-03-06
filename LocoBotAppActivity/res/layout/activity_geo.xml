@@ -1,0 +1,442 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="top"
+    tools:ignore="HardcodedText" >
+    
+    <ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    tools:ignore="UselessParent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="ObsoleteLayoutParam" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            
+            	<Button
+            	    android:id="@+id/airport"
+            	    style="?android:attr/buttonStyleSmall"
+            	    android:layout_width="wrap_content"
+            	    android:layout_height="wrap_content"
+            	    android:layout_marginLeft="12dp"
+            	    android:layout_marginRight="10dp"
+            	    android:background="@android:color/transparent"
+            	    android:drawableTop="@drawable/b1"
+            	    android:text="Airport"
+            	    android:textColor="#FF909090"
+            	    tools:ignore="HardcodedText" />
+
+				<Button
+				    android:id="@+id/atm"
+				    style="?android:attr/buttonStyleSmall"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_marginLeft="60dp"
+				    android:layout_marginRight="10dp"
+				    android:background="@android:color/transparent"
+				    android:drawableTop="@drawable/b2"
+				    android:text="ATM"
+				    android:textColor="#FF909090"
+				    tools:ignore="HardcodedText" />
+               
+               <Button
+                   android:id="@+id/bank"
+                   style="?android:attr/buttonStyleSmall"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="63dp"
+                   android:layout_marginRight="10dp"
+                   android:background="@android:color/transparent"
+                   android:drawableTop="@drawable/b3"
+                   android:text="Bank"
+                   android:textColor="#FF909090"
+                   tools:ignore="HardcodedText" />
+     	</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+	
+              <Button
+                  android:id="@+id/busstation"
+                  style="?android:attr/buttonStyleSmall"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:background="@android:color/transparent"
+                  android:drawableTop="@drawable/b4"
+                  android:text="Bus Stop"
+                  android:textColor="#FF909090" />
+
+             <Button
+                 android:id="@+id/cafe"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="52dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b5"
+                 android:text="Cafe"
+                 android:textColor="#FF909090" />
+
+             <Button
+                 android:id="@+id/convenience_store"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="63dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b6"
+                 android:text="Store"
+                 android:textColor="#FF909090" />
+
+      </LinearLayout>
+        
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+         	
+         	<Button
+         	    android:id="@+id/doctor"
+         	    style="?android:attr/buttonStyleSmall"
+         	    android:layout_width="wrap_content"
+         	    android:layout_height="wrap_content"
+         	    android:layout_marginLeft="13dp"
+         	    android:layout_marginRight="10dp"
+         	    android:background="@android:color/transparent"
+         	    android:drawableTop="@drawable/b7"
+         	    android:text="Doctor"
+         	    android:textColor="#FF909090" />
+
+            <Button
+                android:id="@+id/electronics_store"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/b8"
+                android:text="Electronics"
+                android:textColor="#FF909090" />
+
+             <Button
+                 android:id="@+id/fire_station"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="40dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b9"
+                 android:text="Fire Station"
+                 android:textColor="#FF909090" />
+
+  		</LinearLayout>
+  
+  		<LinearLayout
+        	 android:layout_width="match_parent"
+             android:layout_height="wrap_content" 
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal">
+                
+             <Button
+                    android:id="@+id/gas_station"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gas Station"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#FF909090" 
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/b10"/>
+
+             <Button
+                 android:id="@+id/grocery_or_supermarket"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="45dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b11"
+                 android:text="Grocery"
+                 android:textColor="#FF909090" />
+                           
+             <Button
+                 android:id="@+id/hindu_temple"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="60dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b12"
+                 android:text="Temple"
+                 android:textColor="#FF909090" />
+
+       </LinearLayout>
+       <LinearLayout
+  	        android:layout_width="match_parent"
+       	    android:layout_height="wrap_content" 
+           	android:layout_marginTop="10dp"
+           	android:orientation="horizontal">
+             <Button
+                    android:id="@+id/hospital"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hospital"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp" 
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/b13"
+                    android:textColor="#FF909090"/>
+
+             <Button
+                 android:id="@+id/laundry"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="52dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b14"
+                 android:text="Laundry"
+                 android:textColor="#FF909090" />
+
+             <Button
+                 android:id="@+id/library"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="58dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b15"
+                 android:text="Library"
+                 android:textColor="#FF909090" />
+
+     </LinearLayout>
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+             <Button
+                    android:id="@+id/local_government_office"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Govt.Office"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/b16"
+                    android:textColor="#FF909090" />
+
+             <Button
+                 android:id="@+id/lodging"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="47dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b17"
+                 android:text="Lodging"
+                 android:textColor="#FF909090" />
+
+             <Button
+                 android:id="@+id/mosque"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="58dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b18"
+                 android:text="Mosque"
+                 android:textColor="#FF909090" />
+
+	</LinearLayout>
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+             <Button
+                 android:id="@+id/movie_theater"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b19"
+                 android:text="Movies"
+                 android:textColor="#FF909090" />
+
+             <Button
+                 android:id="@+id/pharmacy"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="52dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b20"
+                 android:text="Pharmacy"
+                 android:textColor="#FF909090" />
+
+       		<Button
+       		    android:id="@+id/police"
+       		    style="?android:attr/buttonStyleSmall"
+       		    android:layout_width="wrap_content"
+       		    android:layout_height="wrap_content"
+       		    android:layout_marginLeft="53dp"
+       		    android:layout_marginRight="10dp"
+       		    android:background="@android:color/transparent"
+       		    android:drawableTop="@drawable/b21"
+       		    android:text="Police"
+       		    android:textColor="#FF909090" />
+
+    </LinearLayout>
+     
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+             <Button
+                    android:id="@+id/post_office"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Post Office"
+                    android:layout_marginRight="10dp" 
+                    android:textColor="#FF909090" 
+                     android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/b22"/>
+
+             <Button
+                 android:id="@+id/restaurant"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="36dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b23"
+                 android:text="Restaurant"
+                 android:textColor="#FF909090" />
+
+             <Button
+                 android:id="@+id/school"
+                 style="?android:attr/buttonStyleSmall"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="50dp"
+                 android:layout_marginRight="10dp"
+                 android:background="@android:color/transparent"
+                 android:drawableTop="@drawable/b24"
+                 android:text="School"
+                 android:textColor="#FF909090" />
+
+     </LinearLayout>
+     
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:orientation="horizontal"
+         tools:ignore="ExtraText" >
+
+            <Button
+                    android:id="@+id/shopping_mall"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mall"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FF909090" 
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/b25"/>
+            <Button
+                    android:id="@+id/taxi_stand"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Taxi"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#FF909090"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/b26" />
+            <Button
+                    android:id="@+id/train_station"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Railway station"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#FF909090"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/b27" />
+   </LinearLayout>
+	
+   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+                                
+             <Button
+                    android:id="@+id/travel_agency"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:text="Travelling"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#FF909090"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/b28" />
+            <Button
+                    android:id="@+id/university"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/b29"
+                    android:text="University"
+                    android:textColor="#FF909090"/>
+
+                </LinearLayout>
+    
+        
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

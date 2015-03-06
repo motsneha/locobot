@@ -1,0 +1,6 @@
+127.0.0.1 - - [08/Jan/2013:13:16:35 +0530] "GET /RestWebService/rest/person/sample HTTP/1.1" 200 101
+127.0.0.1 - - [08/Jan/2013:13:16:56 +0530] "GET /RestWebService/rest/person/sample HTTP/1.1" 200 101
+127.0.0.1 - - [08/Jan/2013:13:17:08 +0530] "GET /RestWebService/rest/person/sample HTTP/1.1" 200 101
+127.0.0.1 - - [08/Jan/2013:13:17:26 +0530] "GET /RestWebService/rest/person/sample HTTP/1.1" 200 101
+127.0.0.1 - - [08/Jan/2013:13:17:29 +0530] "POST /RestWebService/rest/person HTTP/1.1" 200 101
+127.0.0.1 - - [08/Jan/2013:13:17:55 +0530] "POST /RestWebService/rest/person HTTP/1.1" 200 67

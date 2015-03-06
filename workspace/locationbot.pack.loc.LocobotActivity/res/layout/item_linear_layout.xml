@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ab" >
+
+   <fragment 
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+
+   
+
+        <Button
+            android:id="@+id/itemSaveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:minWidth="160dp"
+            android:text="@string/BigItemSave"
+            android:textColor="#FFFF00" />
+
+        <Button
+            android:id="@+id/itemBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="60dp"
+            android:minWidth="160dp"
+            android:text="@string/BigItemBack" 
+            android:textColor="#FFFF00"/>
+   
+
+</LinearLayout>

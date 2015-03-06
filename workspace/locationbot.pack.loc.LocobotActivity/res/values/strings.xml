@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Locobot</string>
+    <string name="searchButton">search</string>
+    <string name="savedItemsButton">saved items</string>
+    <string name="atmButton">atm</string>
+    <string name="petrolButton">petrol </string>
+    <string name="medicalButton">medical</string>
+    <string name="backButton">back</string>
+    <string name="BigItemSave">Save</string>
+    <string name="BigItemBack">Back</string>
+    <string name="restaurentButton">Restaurent</string>
+
+</resources>

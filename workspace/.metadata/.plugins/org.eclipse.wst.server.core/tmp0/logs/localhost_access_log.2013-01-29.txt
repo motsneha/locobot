@@ -1,0 +1,5 @@
+127.0.0.1 - - [29/Jan/2013:13:41:57 +0530] "GET /com.locobot.webservice/rest/address/10245.0/102478.0/atm HTTP/1.1" 200 121
+127.0.0.1 - - [29/Jan/2013:23:17:11 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [29/Jan/2013:23:36:23 +0530] "GET /com.locobot.webservice/rest/address/10245.0/102478.0/atm HTTP/1.1" 200 121
+127.0.0.1 - - [29/Jan/2013:23:36:34 +0530] "GET /com.locobot.webservice/rest/address/10245.0/102478.0/atm HTTP/1.1" 200 121
+127.0.0.1 - - [29/Jan/2013:23:37:19 +0530] "GET /com.locobot.webservice/rest/addresspetrol HTTP/1.1" 404 979

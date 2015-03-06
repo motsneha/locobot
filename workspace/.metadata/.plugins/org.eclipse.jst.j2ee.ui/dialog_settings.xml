@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="RestfulWSEAR" key="LASTEARNAME_"/>
+	<item value="true" key="J2EE_EXPORT_SOURCE"/>
+	<list key="J2EE_IMPORT_APP_CLIENT">
+		<item value="C:\Users\Max\Documents\jersey-archive-1.15\lib\asm-3.1.jar"/>
+		<item value="C:\Users\Max\Documents\jersey-archive-1.15\contribs\jersey-apache-client-1.15.jar"/>
+		<item value="C:\Users\Max\Documents\jersey-archive-1.15\contribs\jersey-atom-abdera-1.15.jar"/>
+		<item value="C:\Users\Max\Documents\jersey-archive-1.15\contribs\jersey-guice-1.15.jar"/>
+		<item value="C:\Users\Max\Documents\jersey-archive-1.15\contribs\jersey-multipart-1.15.jar"/>
+		<item value="C:\Users\Max\Documents\jersey-archive-1.15\contribs\jersey-simple-server-1.15.jar"/>
+	</list>
+	<list key="J2EE_IMPORT_null">
+		<item value="E:\apache-tomcat-7.0.22\webapps\TestRest.war"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\Users\Sneha\Desktop\locobotb.war"/>
+		<item value="C:\Users\Sneha\Desktop\locobota.war"/>
+		<item value="E:\locobotb.war"/>
+		<item value="C:\Users\Sneha\Documents\locobotb.war"/>
+		<item value="E:\apache-tomcat-7.0.22\webapps\locobota.war"/>
+	</list>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="NULL_RUNTIME"/>
+		<item value="GlassFish 3.1"/>
+		<item value="Apache Tomcat v7.0"/>
+	</list>
+</section>

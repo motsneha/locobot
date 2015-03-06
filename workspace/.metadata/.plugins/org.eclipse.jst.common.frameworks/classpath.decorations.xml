@@ -1,0 +1,20 @@
+<classpath>
+  <container id="de.vogella.jersey.first!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/persi_project/workspace/de.vogella.jersey.first/WebContent/WEB-INF/lib/jersey-server-1.15.jar">
+      <source-attachment-path>E:/persi_project/workspace/de.vogella.jersey.first/WebContent/WEB-INF/lib/jersey-server-1.15.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="rest!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/persi_project/workspace/rest/WebContent/WEB-INF/lib/jersey-core-1.15.jar">
+      <source-attachment-path>E:/persi_project/workspace/rest/WebContent/WEB-INF/lib/jersey-core-1.15.jar</source-attachment-path>
+    </entry>
+    <entry id="E:/persi_project/workspace/rest/WebContent/WEB-INF/lib/jersey-server-1.15.jar">
+      <source-attachment-path>/rest/WebContent/WEB-INF/lib/jersey-server-1.15.jar</source-attachment-path>
+    </entry>
+  </container>
+  <container id="MyWebService!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/persi_project/workspace/MyWebService/WebContent/WEB-INF/lib/jersey-servlet-1.15.jar">
+      <source-attachment-path>/RestWebService/WebContent/WEB-INF/lib/jersey-servlet-1.15.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

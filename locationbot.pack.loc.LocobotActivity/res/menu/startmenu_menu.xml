@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/startmenu_menu_search" android:title="search"></item>
+    <item android:id="@+id/startmenu_menu_savedItems" android:title="saved items"></item>
+    <item android:id="@+id/startmenu_menu_myLocation" android:title="get my location"></item>
+    <item android:id="@+id/startmenu_menu_exit" android:title="exit"></item>
+
+</menu>

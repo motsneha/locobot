@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RestfulWS/WebContent/WEB-INF/sun-web.xml&apos; to &apos;web.xml&apos;" description="Rename resource &apos;sun-web.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/WEB-INF/sun-web.xml" name="web.xml" stamp="1353999058554" updateReferences="true"/>
+</session>

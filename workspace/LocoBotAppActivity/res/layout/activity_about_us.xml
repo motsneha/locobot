@@ -1,0 +1,225 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs" 
+    android:background="@drawable/background"
+    android:orientation="vertical">
+<TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10dp"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:text="We are a group of seven from Government College of Engineering,Amravati,Maharashtra."
+       android:textColor="#FF909090"
+       tools:ignore="HardcodedText" />
+<ScrollView 
+    android:layout_width="match_parent"
+     android:layout_height="match_parent">
+ 
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_marginTop="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+ 
+ 	<LinearLayout
+     android:orientation="horizontal"
+     android:layout_width="wrap_content"
+     android:layout_marginTop="10dp"
+     android:layout_height="wrap_content">
+     
+ 	<Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:clickable="false"
+		android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/sneha_motwani" />
+<TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:layout_marginLeft="100dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:text="Sneha"
+       android:textColor="#3BB9FF"
+       tools:ignore="HardcodedText" />
+</LinearLayout>
+<LinearLayout
+     android:orientation="horizontal"
+     android:layout_marginTop="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     
+ <Button
+     android:id="@+id/button2"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:background="@android:color/transparent"
+     android:clickable="false"
+     android:drawableLeft="@drawable/sagar"
+     tools:ignore="HardcodedText" />
+
+
+<TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="100dp"
+       android:layout_marginRight="10dp"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:layout_marginTop="10dp"
+       android:text="Sagar"
+       android:textColor="#3BB9FF"
+       tools:ignore="HardcodedText" />
+</LinearLayout>
+<LinearLayout
+     android:orientation="horizontal"
+     android:layout_marginTop="10dp"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+     
+ <Button
+     android:id="@+id/button3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:background="@android:color/transparent"
+     android:clickable="false"
+     android:drawableLeft="@drawable/saurabh"
+     tools:ignore="HardcodedText" />
+
+<!--         android:drawableTop="@drawable/" /> -->
+<TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="100dp"
+       android:layout_marginRight="10dp"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:layout_marginTop="10dp"
+       android:text="Saurabh"
+       android:textColor="#3BB9FF"
+       tools:ignore="HardcodedText" />
+</LinearLayout>
+<LinearLayout
+     android:orientation="horizontal"
+     android:layout_marginTop="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     
+ <Button
+     android:id="@+id/button4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:background="@android:color/transparent"
+     android:clickable="false"
+     android:drawableLeft="@drawable/shital"
+     tools:ignore="HardcodedText" />
+
+<!--         android:drawableTop="@drawable/" /> -->
+<TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="100dp"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:text="Shital"
+       
+       android:textColor="#3BB9FF"
+       tools:ignore="HardcodedText" />
+</LinearLayout>
+
+<LinearLayout
+     android:orientation="horizontal"
+     android:layout_marginTop="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     
+ <Button
+     android:id="@+id/button5"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:background="@android:color/transparent"
+     android:clickable="false"
+     android:drawableLeft="@drawable/jayshree"
+     tools:ignore="HardcodedText" />
+
+<!--         android:drawableTop="@drawable/" /> -->
+<TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="100dp"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:text="Jayshree"
+       android:textColor="#3BB9FF"
+       tools:ignore="HardcodedText" />
+</LinearLayout>
+<LinearLayout
+     android:orientation="horizontal"
+     android:layout_marginTop="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     
+ <Button
+     android:id="@+id/button6"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:background="@android:color/transparent"
+     android:clickable="false"
+     android:drawableLeft="@drawable/vishal"
+     tools:ignore="HardcodedText" />
+
+<!--         android:drawableTop="@drawable/" /> -->
+<TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="100dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:text="Vishal"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:textColor="#3BB9FF"
+       tools:ignore="HardcodedText" />
+</LinearLayout>
+<LinearLayout
+     android:orientation="horizontal"
+     android:layout_marginTop="10dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     
+ <Button
+     android:id="@+id/button7"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dp"
+     android:background="@android:color/transparent"
+     android:clickable="false"
+     android:drawableLeft="@drawable/mohit"
+     tools:ignore="HardcodedText" />
+
+<!--         android:drawableTop="@drawable/" /> -->
+<TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="100dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="10dp"
+       android:text="Mohit"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:textColor="#3BB9FF"
+       tools:ignore="HardcodedText" />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

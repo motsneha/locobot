@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [21/Feb/2013:12:21:11 +0530] "GET /com.locobot.busservice/ HTTP/1.1" 404 979
+0:0:0:0:0:0:0:1 - - [21/Feb/2013:12:21:11 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [21/Feb/2013:12:21:50 +0530] "GET /com.locobot.busservice/city/UP/Badnera HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [21/Feb/2013:12:22:12 +0530] "GET /com.locobot.busservice/city/UP/Nemani%20Godown HTTP/1.1" 200 388
+0:0:0:0:0:0:0:1 - - [21/Feb/2013:12:29:36 +0530] "GET /com.locobot.busservice/city/UP/Nemani%20Godown HTTP/1.1" 200 388
+0:0:0:0:0:0:0:1 - - [21/Feb/2013:12:30:05 +0530] "GET /com.locobot.busservice/city/UP/Sai%20nagar HTTP/1.1" 200 389
+0:0:0:0:0:0:0:1 - - [21/Feb/2013:12:30:33 +0530] "GET /com.locobot.busservice/city/DOWN/rathi%20nagar HTTP/1.1" 200 272
+127.0.0.1 - - [21/Feb/2013:13:40:06 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [21/Feb/2013:13:40:06 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [21/Feb/2013:13:40:06 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [21/Feb/2013:13:40:06 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [21/Feb/2013:13:40:06 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [21/Feb/2013:14:23:04 +0530] "GET / HTTP/1.1" 404 955

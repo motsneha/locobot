@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StBusResultActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="21dp"
+        android:text="Buses Available"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF909090"
+        tools:ignore="HardcodedText" />
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:text="Source"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF909090"
+        tools:ignore="HardcodedText" />
+	
+    <TextView
+        android:id="@+id/sourceView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="0dp"
+        
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF909090"
+        tools:ignore="HardcodedText" />
+	</LinearLayout>
+	
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:text="Destination"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF909090"
+        tools:ignore="HardcodedText" />
+	
+    <TextView
+        android:id="@+id/destView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="0dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF909090"
+        tools:ignore="HardcodedText" />
+	</LinearLayout>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="15dp"
+	    android:text="Timing"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="#FF909090"
+	    tools:ignore="HardcodedText" />
+	
+    <TextView
+        android:id="@+id/rsltView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF909090"
+         />
+    
+</LinearLayout>

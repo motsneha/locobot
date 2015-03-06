@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Enter Message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF909090"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF909090"
+        android:inputType="textAutoCorrect|textMultiLine" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="Enter Address"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF909090"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:ems="10"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF909090"
+        android:inputType="textAutoCorrect|textMultiLine" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/getcord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:text="Get coordinates"
+        android:textColor="#FF909090"
+        android:background="@android:color/transparent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:background="@android:color/transparent"
+        android:text="Save"
+        android:textColor="#FF909090"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

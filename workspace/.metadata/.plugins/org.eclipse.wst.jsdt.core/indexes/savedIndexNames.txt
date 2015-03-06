@@ -1,0 +1,9 @@
+INDEX VERSION 1.122+E:\persi_project\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2442564917.index
+3197496565.index
+1223642358.index
+3096958997.index
+664583503.index
+1062037450.index
+464024673.index
+1249320775.index

@@ -1,0 +1,8 @@
+127.0.0.1 - - [15/Feb/2013:09:15:20 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [15/Feb/2013:09:16:02 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [15/Feb/2013:09:16:06 +0530] "GET /com.locobot.busservice/ HTTP/1.1" 404 979
+0:0:0:0:0:0:0:1 - - [15/Feb/2013:09:16:07 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [15/Feb/2013:09:16:20 +0530] "GET /com.locobot.busservice/city/up/badnera HTTP/1.1" 200 14
+0:0:0:0:0:0:0:1 - - [15/Feb/2013:09:18:04 +0530] "GET /com.locobot.busservice/ HTTP/1.1" 404 979
+0:0:0:0:0:0:0:1 - - [15/Feb/2013:09:18:08 +0530] "GET /com.locobot.busservice/city/up/badnera HTTP/1.1" 200 376
+0:0:0:0:0:0:0:1 - - [15/Feb/2013:09:19:35 +0530] "GET /com.locobot.busservice/city/up/badnera HTTP/1.1" 200 376

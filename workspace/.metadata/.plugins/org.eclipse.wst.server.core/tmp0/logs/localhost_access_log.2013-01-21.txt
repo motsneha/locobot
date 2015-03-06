@@ -1,0 +1,5 @@
+127.0.0.1 - - [21/Jan/2013:12:49:14 +0530] "GET / HTTP/1.1" 404 955
+127.0.0.1 - - [21/Jan/2013:12:56:36 +0530] "GET /MyWebService/rest/address/petrolstation HTTP/1.1" 404 1072
+127.0.0.1 - - [21/Jan/2013:12:57:01 +0530] "GET /MyWebService/rest/address/petrolstation HTTP/1.1" 404 1072
+127.0.0.1 - - [21/Jan/2013:13:00:51 +0530] "GET /MyWebService/rest/address/petrolstation HTTP/1.1" 404 1072
+127.0.0.1 - - [21/Jan/2013:13:07:54 +0530] "GET /MyWebService/rest/address/atm HTTP/1.1" 404 1042

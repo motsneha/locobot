@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:26:31 +0530] "GET /com.locabot.busservice/ HTTP/1.1" 404 979
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:26:31 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:26:59 +0530] "GET /com.locabot.busservice/schedule/amravati/nagpur/ HTTP/1.1" 200 14
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:32:04 +0530] "GET /com.locabot.busservice/ HTTP/1.1" 404 979
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:32:04 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:32:04 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:32:14 +0530] "GET /com.locabot.busservice/amravati/nagpur HTTP/1.1" 404 979
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:32:29 +0530] "GET /com.locabot.busservice/schedule/amravati/nagpur HTTP/1.1" 200 24
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:37:02 +0530] "GET /com.locabot.busservice/schedule/amravati/nagpur HTTP/1.1" 200 24
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:37:04 +0530] "GET /com.locabot.busservice/schedule/amravati/nagpur HTTP/1.1" 200 24
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:37:04 +0530] "GET /com.locabot.busservice/schedule/amravati/nagpur HTTP/1.1" 200 24
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:37:05 +0530] "GET /com.locabot.busservice/schedule/amravati/nagpur HTTP/1.1" 200 24
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:38:15 +0530] "GET /com.locabot.busservice/schedule/amravati/nagpur HTTP/1.1" 200 449
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:40:02 +0530] "GET /com.locabot.busservice/ HTTP/1.1" 404 979
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:40:02 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [12/Feb/2013:14:40:14 +0530] "GET /com.locabot.busservice/schedule/amravati/nagpur HTTP/1.1" 200 449

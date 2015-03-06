@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bot.location.locobotapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+<permission
+        android:name="bot.location.locobotapp.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="bot.location.locobotapp.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/w"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="bot.location.locobotapp.LocoBotAppActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.GooglePlacesActivity"
+             android:label="@string/title_activity_google_places" > 
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.CityBusActivity"
+            android:label="@string/title_activity_city_bus" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.CityBusResultActivity"
+            android:label="@string/title_activity_city_bus_result" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.StBusActivity"
+            android:label="@string/title_activity_st_bus" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.StBusResultActivity"
+            android:label="@string/title_activity_st_bus_result" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.GeoActivity"
+            android:label="@string/title_activity_geo" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.GoogleApi"
+            android:label="Your nearest Places" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.SinglePlaceActivity"
+            android:label="Place Details" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.PlacesMapActivity"
+            android:label="Near Places Map View" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.SMSActivity"
+            android:label="Set SMS Content" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.AlertmeActivity"
+            android:label="Remind me" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="bot.location.locobotapp.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCdkO2Qaeuty0OCbt1tm2cxwkM4ri52Wfc" />
+    </application>
+<uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+</manifest>

@@ -1,0 +1,8 @@
+127.0.0.1 - - [01/Feb/2013:11:46:17 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [01/Feb/2013:11:47:40 +0530] "GET /com.locobot.webservice/rest/address/10245.00/102478.00/atm HTTP/1.1" 200 121
+0:0:0:0:0:0:0:1 - - [01/Feb/2013:11:47:40 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [01/Feb/2013:11:47:48 +0530] "GET /com.locobot.webservice/rest/address/10245.00/102478.00/atm HTTP/1.1" 200 121
+0:0:0:0:0:0:0:1 - - [01/Feb/2013:11:47:49 +0530] "GET /com.locobot.webservice/rest/address/10245.00/102478.00/atm HTTP/1.1" 200 121
+0:0:0:0:0:0:0:1 - - [01/Feb/2013:11:47:50 +0530] "GET /com.locobot.webservice/rest/address/10245.00/102478.00/atm HTTP/1.1" 200 121
+127.0.0.1 - - [01/Feb/2013:11:53:40 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [01/Feb/2013:11:54:02 +0530] "GET /com.locobot.webservice/rest/address/10245.00/102478.00/atm HTTP/1.1" 200 138

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical" >
+  
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
+  
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+
+    <Button
+        android:id="@+id/atmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onAtm"
+        android:layout_marginTop="30dp"
+        android:minWidth="150dp"
+        android:text="@string/atmButton" />
+
+    <Button
+        android:id="@+id/petrolStationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onPetrolStation"
+        android:layout_marginTop="30dp"
+        android:minWidth="150dp"
+        android:text="@string/petrolButton" />
+
+    <Button
+        android:id="@+id/medicalShopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onMedical"
+        android:layout_marginTop="30dp"
+        android:minWidth="150dp"
+        android:text="@string/medicalButton" />
+
+</LinearLayout>
+</ScrollView>  
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#ff5A2A3C"
+    android:layout_weight="0">
+
+    <Button
+        android:id="@+id/goBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onBack"
+        android:minWidth="150dp"
+        android:text="@string/backButton" />
+    
+</LinearLayout>
+
+
+</LinearLayout>
+   
+    

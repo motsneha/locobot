@@ -1,0 +1,4 @@
+127.0.0.1 - - [11/Feb/2013:18:28:36 +0530] "GET / HTTP/1.1" 404 955
+0:0:0:0:0:0:0:1 - - [11/Feb/2013:18:28:39 +0530] "GET /com.locabot.busservice/ HTTP/1.1" 404 979
+0:0:0:0:0:0:0:1 - - [11/Feb/2013:18:28:39 +0530] "GET /favicon.ico HTTP/1.1" 404 988
+0:0:0:0:0:0:0:1 - - [11/Feb/2013:18:29:02 +0530] "GET /com.locabot.busservice/schedule/amravati/nagpur/ HTTP/1.1" 200 14

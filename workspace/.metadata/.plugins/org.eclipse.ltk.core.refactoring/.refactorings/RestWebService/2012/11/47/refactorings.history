@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;RestWebService&apos;&#x0D;&#x0A;- Original project: &apos;RestWebService&apos;&#x0D;&#x0A;- Original element: &apos;RestWebService/src/com&apos;&#x0D;&#x0A;- Delete subpackages" description="Delete element" element1="/src&lt;com.avilyne.rest.resource" element2="/src&lt;com.avilyne.rest.model" element3="/src&lt;com.avilyne.rest" element4="/src&lt;com.avilyne" element5="/src&lt;com" elements="5" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1353573064192" subPackages="true" version="1.0"/>
+</session>

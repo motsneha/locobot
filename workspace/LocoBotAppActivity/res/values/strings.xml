@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocoBot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_google_places">GooglePlacesActivity</string>
+    <string name="title_activity_city_bus">Search City Buses</string>
+    <string name="prompt1">Select Source</string>
+    <string name="TitleText">Bus Schedule</string>
+    <string name="SourceText">From:</string>
+    <string name="DestinText">To:</string>
+    <string name="prompt2">Select Destination</string>
+    <string name="upRadio">Up</string>
+    <string name="downRadio">Down</string>
+    <string name="sourceElement">Source</string>
+    <string name="destinElement">Destination</string>
+    <string name="bussearch">Search Buses</string>
+    <string name="resultsButton">Back</string>
+    <string name="title_activity_geo">Search Places</string>
+    <string name="add">Address</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="enable_gps_dialog">GPS provider not enabled. Would you like to enable it?</string>
+
+    <string-array name="destinations">
+        <item>Badnera</item>
+        <item>Biyani Square</item>
+        <item>Chaprasipura</item>
+        <item>Camp Road</item>
+        <item>Dastur Nagar</item>
+        <item>Depo</item>
+        <item>Gopal Nagar</item>
+        <item>Gadge Nagar</item>
+        <item>Girls High School</item>
+        <item>HarshRaj Colony</item>
+        <item>Irvin</item>
+        <item>ITI</item>
+        <item>Kathora Naka</item>
+        <item>Midc</item>
+        <item>Nemani Godown</item>
+        <item>Nawathe</item>
+        <item>Navasari</item>
+        <item>Old Badnera</item>
+        <item>Panchvati</item>
+        <item>Pote College</item>
+        <item>Tata Parsi</item>
+        <item>Sai Nagar</item>
+        <item>Rajapeth</item>
+        <item>Rajkamal</item>
+        <item>Railway Station</item>
+        <item>Rathi High School</item>
+        <item>Rathi Nagar</item>
+        <item>RTO</item>
+        <item>Rangoli Lawn</item>
+        <item>Saturna</item>
+        <item>Samarth High School</item>
+        <item>Shegaon Naka</item>
+        <item>Sourabh Colony</item>
+        <item>University</item>
+        <item>VMV</item>
+        <item>Yashoda Nagar</item>
+    </string-array>
+
+    <string name="title_activity_city_bus_result">City Bus Timings</string>
+    <string name="title_activity_st_bus">Search S.T Bus</string>
+
+    <string-array name="destinations2">
+        <item>Akot</item>
+        <item>Aurangabad</item>
+        <item>Baitul</item>
+        <item>Bhandara</item>
+        <item>Bhopal</item>
+        <item>Bramahanpur</item>
+        <item>Bramahapuri</item>
+        <item>Chikhaldara</item>
+        <item>Chindawada</item>
+        <item>Dhule</item>
+        <item>Gadchiroli</item>
+        <item>Gondia</item>
+        <item>Hyderabad</item>
+        <item>Indore</item>
+        <item>Jalana</item>
+        <item>Karanja</item>
+        <item>Khamgaon</item>
+        <item>Latur</item>
+        <item>Lonar</item>
+        <item>Mahur</item>
+        <item>Malkapur</item>
+        <item>Nagpur</item>
+        <item>Nanded</item>
+        <item>Nashik</item>
+        <item>Pandharpur</item>
+        <item>Paratwada</item>
+        <item>Pune</item>
+        <item>Ramtek</item>
+        <item>Shegaon</item>
+        <item>Shinganapur</item>
+        <item>Shirdi</item>
+        <item>Solapur</item>
+        <item>Tumsar</item>
+        <item>Umared</item>
+        <item>Wardha</item>
+        <item>Washim</item>
+        <item>Yavatmal</item>
+    </string-array>
+
+    <string name="title_activity_st_bus_result">S.T Bus Timings</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_help">Help</string>
+
+</resources>
